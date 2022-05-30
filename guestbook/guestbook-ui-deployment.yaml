@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui2
     spec:
       containers:
-      - image: localhost:5000/knjiga-gostiju
+      - image: 192.168.1.100:5000/knjga-gostiju:0.2
         name: guestbook-ui2
         ports:
         - containerPort: 80
